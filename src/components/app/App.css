@@ -1,0 +1,106 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.container{
+  background: linear-gradient(135deg, #bae9d9, #90a1b1);
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  place-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background: #fff;
+  box-shadow: inset 2px 2px 5px 5px #eceff5,
+              3px 3px 4px 3px #e4f6fc;
+  min-width:350px;
+  min-height:500px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius:5px;
+}
+.title{
+  color: #5b7ff7;
+  text-align:center;
+  margin:20px 0px 20px 0px;
+}
+.name,.email,.password,.confirmpassword,.terms{
+  margin:20px;
+  color:#969292;
+  font-size:16px;
+}
+.terms{
+  margin-bottom: 30px;
+}
+.input{
+  height:32px;
+  font-size:14px;
+  outline:none;
+  width:100%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid #000;
+  border-left-style: none;
+}
+.inputcheck{
+  height:32px;
+  font-size:14px;
+  outline:none;
+}
+.error{
+  color: #ff0000;
+}
+.submit{
+  display:flex;
+  text-transform:uppercase;
+  font-size:16px;
+  border-radius:25px;
+  color:white;
+  padding:10px 30px;
+  background: #5ab3b3;
+  box-shadow: 3px 3px 4px 3px #bbbbbb;
+  outline: 1px solid transparent;
+  border:none;
+  margin:auto;
+  transition: all 0.1s;
+}
+button:active{
+  transform: translateY(2px);
+}
+.form-success{
+  display: flex;
+  justify-content: center;
+  margin-top:250px;
+  min-width:370px;
+  color:#f80759;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
